@@ -13,9 +13,7 @@ BEGIN Introduction
 	IF ~~ THEN
 		// I need to get to Kuldahar. Can you help me?
 		REPLY @220
-		DO ~SetGlobal("Exp_Pause","GLOBAL",1)~
-		DO ~StartCutScene("BCtoKU")~
-		EXIT
+		GOTO HelpRequested		
 	
 	IF ~~ THEN
 		// I'm just passing here. Goodbye.
@@ -33,4 +31,23 @@ BEGIN IntroductionRequested
 		// Can I ask you a few questions?
 		REPLY @310
 		GOTO Introduction
+END
+
+IF ~~ THEN
+BEGIN HelpRequested
+	// I'm able to teleport you there by casting powerful and exhausting spell. It will cost you 2000 gold.
+	SAY @400 
+
+	IF ~PartyGoldGT(1999)~ THEN
+		// Here is your gold. Take me there.
+		REPLY @410		
+		DO ~TakePartyGold(2000)~
+		DO ~SetGlobal("Exp_Pause","GLOBAL",1)~
+		DO ~StartCutScene("BCtoKU")~		
+		EXIT
+
+	IF ~~ THEN
+		// I don't want to go there yet.
+		REPLY @420		
+		EXIT
 END
