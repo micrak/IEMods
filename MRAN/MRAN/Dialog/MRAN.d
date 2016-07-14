@@ -1,6 +1,6 @@
 BEGIN ~MRAN~
 
-IF ~NumTimesTalkedTo(0)~ THEN
+IF ~True()~ THEN
 BEGIN Introduction
 	// What are you looking for?
 	SAY @200
@@ -13,8 +13,8 @@ BEGIN Introduction
 	IF ~~ THEN
 		// I need to get to Kuldahar. Can you help me?
 		REPLY @220
-		SetGlobal("Exp_Pause","GLOBAL",1)
-		StartCutScene("BCtoKU")
+		DO ~SetGlobal("Exp_Pause","GLOBAL",1)~
+		DO ~StartCutScene("BCtoKU")~
 		EXIT
 	
 	IF ~~ THEN
