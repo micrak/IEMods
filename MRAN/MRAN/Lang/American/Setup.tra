@@ -1,8 +1,8 @@
 // Thea Branden NPC Tutorial
 
-@100	= ~When asked about her past, Thea Branden has little to say. She claims she's a clean slate.~
-@101	= ~Thea Branden~
-@102	= ~Thea Branden~
+@100	= ~When asked about her past, Anurgath has little to say. He claims he's a clean slate.~
+@101	= ~Anurgath~
+@102	= ~Anurgath~
 
 @200	= ~The battle turns against us!~ [E)DNOMF1]
 
