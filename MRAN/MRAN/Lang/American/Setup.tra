@@ -1,6 +1,13 @@
-// Thea Branden NPC Tutorial
-
 @101	= ~Anurgath~
 @102	= ~Anurgath~
 
 @200    = ~What are you looking for?.~
+
+@210    = ~Who are you?~
+@220    = ~I need to get to Kuldahar. Can you help me?~
+@230    = ~I'm just passing here. Goodbye.~
+
+
+@300    = ~I'm Anurgath. I was sent by Argent to help the strangers.~
+
+@310    = ~Can I ask you a few questions?~
