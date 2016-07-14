@@ -1,6 +1,7 @@
 # IEMods - Infinity Engine Mods
 
 Download:
+
 https://github.com/micrak/IEMods/archive/master.zip
 
 # Installation
@@ -16,7 +17,7 @@ Anurgath NPC for Icewind Dale.
 This mod adds NPC for moving from Lonelywood to Kuldahar. 
 
 Translations:
-en_US
+en_US,
 pl_PL
 
 Tested with:
