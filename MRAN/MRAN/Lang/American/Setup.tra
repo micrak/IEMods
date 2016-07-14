@@ -1,45 +1,6 @@
 // Thea Branden NPC Tutorial
 
-@100	= ~When asked about her past, Anurgath has little to say. He claims he's a clean slate.~
 @101	= ~Anurgath~
 @102	= ~Anurgath~
 
-@200	= ~The battle turns against us!~ [E)DNOMF1]
-
-@210	= ~I will do my best to keep us under harm's way.~ [E)DNOBL1]
-
-@220	= ~If I have to take another step my feet will fall off.~ [E)DNOTR1]
-@221 	= ~I think I can feel mold growing on my feet.~ [E)DNOBO2]
-
-@230	= ~Your time draws near!~ [E)DNOBC1]
-@231	= ~Face me if you dare!~ [E)DNOBC2]
-@232	= ~May the Gods have mercy on you!~ [E)DNOBC3]
-@233	= ~Surrender!~ [E)DNOBC4]
-@234	= ~I'll take care of this one!~ [E)DNOBC5]
-
-@240	= ~Ah!~ [E)DNOBH3]
-@241	= ~Ah! Aaaah!~ [E)DNODY2]
-@242	= ~I need healing!~ [E)DNOHU1]
-
-@260	= ~Something amiss?~ [E)DNOSC1]
-@261	= ~I hear you.~ [E)DNOSC2]
-@262	= ~Do you need me?~ [E)DNOSC3]
-@263	= ~Name your task.~ [E)DNOSC4]
-@264	= ~Hmm?~ [E)DNOSC5]
-@265	= ~Can I help?~ [E)DNOSC6]
-@266	= ~Yes?~ [E)DNOSC7]
-
-@270	= ~Immediately!~ [E)DNOSA1]
-@271	= ~Here?~ [E)DNOSA2]
-@272	= ~I'll take care of it.~ [E)DNOSA3]
-@273	= ~All right.~ [E)DNOSA4]
-@274	= ~Well and good.~ [E)DNOSA5]
-@275	= ~I'll do my best.~ [E)DNOSA6]
-@276	= ~With all haste.~ [E)DNOSA7]
-
-@280	= ~A subtlety isn't your best quality.~ [E)DNOSR1]
-@281	= ~If I write a story about our adventures, I'm leaving out this part.~ [E)DNOSR2]
-@282	= ~Look, I'm listening, all right.~ [E)DNOSR3]
-@283	= ~You are making me mad on so many levels right now.~ [E)DNOSR4]
-
-@290	= ~May your final journey be a peaceful one.~ [E)DNORD2]
+@200    = ~What are you looking for?.~

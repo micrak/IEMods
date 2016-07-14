@@ -2,8 +2,7 @@ IF
 	Global("MRANSPAWN", "GLOBAL", 0)
 THEN
 	RESPONSE #100
-		Panic()
 		SetGlobal("MRANSPAWN", "GLOBAL", 1)
-		CreateCreature("MRAN", [2702.1673], 14)
+		CreateCreature("MRAN", [905.1854], 14)
 		Continue()
 END

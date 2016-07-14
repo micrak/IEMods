@@ -5,7 +5,7 @@ BEGIN ~MRAN~
 
 IF ~NumTimesTalkedTo(0)~ THEN
 BEGIN Introduction
-	SAY @100
+	SAY @200
 	
 	IF ~ReputationLT([PC], 6)~ THEN
 		REPLY ~Certainly, I'm <CHARNAME>. What are you doing here?~
