@@ -20,6 +20,9 @@ Translations:
 en_US,
 pl_PL
 
+ Markup : * en_US
+          * pl_PL
+
 Tested with:
 Icewind Dale: Enhanced Edition
 
