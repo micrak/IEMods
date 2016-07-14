@@ -11,12 +11,12 @@ BEGIN Introduction
 		GOTO IntroductionRequested
 
 	IF ~~ THEN
-		// I need to get to Kuldahar. Can you help me?
+		// We need to get to Kuldahar. Can you help us?
 		REPLY @220
 		GOTO HelpRequested		
 	
 	IF ~~ THEN
-		// I'm just passing here. Goodbye.
+		// We're just passing here. Goodbye.
 		REPLY @230
 		EXIT
 		
@@ -28,7 +28,7 @@ BEGIN IntroductionRequested
 	SAY @300
 
 	IF ~~ THEN
-		// Can I ask you a few questions?
+		// Can we ask you a few questions?
 		REPLY @310
 		GOTO Introduction
 END
@@ -39,16 +39,16 @@ BEGIN HelpRequested
 	SAY @400 
 
 	IF ~PartyGoldGT(1999)~ THEN
-		// Here is your gold. Take me there.
+		// Here is your gold. Take us there.
 		REPLY @410		
 		DO ~SetGlobal("Exp_Pause","GLOBAL",0)~
-		DO ~ClearAllActions()~
-		DO ~StartCutSceneMode()~
-		DO ~StartCutScene("MRTOKU")~
+		DO ~SetGlobal("MRAN_TeleportedToKuldahar", "GLOBAL", 1)~
+		DO ~TakePartyGold(2000)~
+		DO ~StartCutScene("BCtoKU")~
 		EXIT
 
 	IF ~~ THEN
-		// I don't want to go there yet.
+		// We don't want to go there yet.
 		REPLY @420		
 		EXIT
 END

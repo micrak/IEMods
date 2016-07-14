@@ -3,13 +3,16 @@
 
 @200    = ~What are you looking for?~
 @210    = ~Who are you?~
-@220    = ~I need to get to Kuldahar. Can you help me?~
-@230    = ~I'm just passing here. Goodbye.~
-
+@220    = ~We need to get to Kuldahar. Can you help us?~
+@230    = ~We're just passing here. Goodbye.~
 
 @300    = ~I'm Anurgath. I was sent by Argent to help the strangers.~
-@310    = ~Can I ask you a few questions?~
+@310    = ~Can we ask you a few questions?~
 
 @400    = ~I'm able to teleport you there by casting powerful and exhausting spell. It will cost you 2000 gold.~
-@410    = ~Here is your gold. Take me there.~
-@420    = ~I don't want to go there yet.~
+@410    = ~Here is your gold. Take us there.~
+@420    = ~We don't want to go there yet.~
+
+@500    = ~Anurgath told me that he helped you to get here. Are you ready to return to the north?~
+@510    = ~Yes. Take us there.~
+@520    = ~We'll be back when we we're ready to go back. Farewell.~
