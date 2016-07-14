@@ -1,13 +1,13 @@
 BACKUP ~MRAN/Backup~
 AUTHOR ~rakoo - rakomeister@gmail.com~
-VERSION ~v1.0~
+VERSION ~v0.0.1~
 
 LANGUAGE 
 	~American English~
 	~American~
 	~MRAN/Lang/American/Setup.tra~
 
-BEGIN ~MRAN NPC for Icewind Dale: Enhanced Edition~
+BEGIN ~Anurgath NPC for Icewind Dale: Enhanced Edition~
 
 COPY ~MRAN/MRAN.cre~ ~override/MRAN.cre~
 	SAY NAME1 @101
@@ -33,4 +33,5 @@ UNLESS ~MRAN~
 
 // scripts
 COMPILE ~MRAN/Script/MRAN.baf~
+COMPILE ~MRAN/Script/MRTOKU.baf~
 EXTEND_TOP ~AR9100.bcs~ ~MRAN/Script/AR9100.baf~

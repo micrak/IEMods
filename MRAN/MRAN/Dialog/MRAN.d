@@ -41,9 +41,10 @@ BEGIN HelpRequested
 	IF ~PartyGoldGT(1999)~ THEN
 		// Here is your gold. Take me there.
 		REPLY @410		
-		DO ~TakePartyGold(2000)~
-		DO ~SetGlobal("Exp_Pause","GLOBAL",1)~
-		DO ~StartCutScene("BCtoKU")~		
+		DO ~SetGlobal("Exp_Pause","GLOBAL",0)~
+		DO ~ClearAllActions()~
+		DO ~StartCutSceneMode()~
+		DO ~StartCutScene("MRTOKU")~
 		EXIT
 
 	IF ~~ THEN
