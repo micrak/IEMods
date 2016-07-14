@@ -7,6 +7,11 @@ LANGUAGE
 	~American~
 	~MRAN/Lang/American/Setup.tra~
 
+LANGUAGE
+	~Polish~
+	~Polish~
+	~MRAN/Lang/Polish/Setup.tra~
+
 BEGIN ~Anurgath NPC for Icewind Dale: Enhanced Edition~
 
 COPY ~MRAN/MRAN.cre~ ~override/MRAN.cre~
