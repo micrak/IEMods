@@ -5,8 +5,8 @@ Download:
 https://github.com/micrak/IEMods/archive/master.zip
 
 # Installation
-*1. Copy selected mod content (for example MRAN) to the game directory.
-*2. Run Setup-[MOD_NAME].exe
+1. Copy selected mod content (for example MRAN) to the game directory.
+2. Run Setup-[MOD_NAME].exe
 
 It is also possible to select the language by adding following parameter:
 Setup-MRAN.exe --use-lang en_US
