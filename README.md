@@ -23,4 +23,6 @@ Translations:
 Tested with:
 * Icewind Dale: Enhanced Edition
 
-![Alt text](/MRAN/MRAN/Screen.jpg?raw=true "Screenshot")
+![Alt text](/MRAN/MRAN/Screen.jpg?raw=true "Screenshot 1")
+
+![Alt text](/MRAN/MRAN/Screen2.jpg?raw=true "Screenshot 2")
